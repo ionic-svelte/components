@@ -30,8 +30,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "prettier --check . && eslint .",
-    "publish": "prettier --write . && npm publish --access public"
+    "build": "prettier --write . && npm publish --access public"
   },
   "devDependencies": {
     "prettier-plugin-svelte": "^3.2.6",
